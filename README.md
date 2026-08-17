@@ -51,7 +51,7 @@ const APPS_SCRIPT_URL = 'YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
 # 安裝 Vercel CLI（如未安裝）
 npm i -g vercel
 
-# 在 pangba-demo-quote 目錄執行
+# 在 pandad-demo-quote 目錄執行
 vercel
 ```
 
@@ -60,7 +60,7 @@ vercel
 ## 檔案說明
 
 ```
-pangba-demo-quote/
+pandad-demo-quote/
 ├── index.html      # 前端表單頁
 ├── Code.gs         # Apps Script 後端（複製貼上到 Google）
 ├── vercel.json     # Vercel 部署設定

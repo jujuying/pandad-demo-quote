@@ -118,7 +118,7 @@ function createQuotePdf(data) {
 
   // ── 頁尾 ──
   body.appendHorizontalRule();
-  const footerPara = body.appendParagraph('此報價單由系統自動產生 | 胖爸省工坊 | pangba-workshop.vercel.app');
+  const footerPara = body.appendParagraph('此報價單由系統自動產生 | 胖爸省工坊 | pandad-workshop.vercel.app');
   footerPara.setAlignment(DocumentApp.HorizontalAlignment.CENTER);
   styleText(footerPara.editAsText(), '#9CA3AF', 10, false);
 
